@@ -1,0 +1,51 @@
+  
+body{
+    margin: 0%;
+    padding: 0%;
+    height: 900px;
+    font-family: "Roboto", sans-serif;
+}
+
+#sidebar{
+    background:lightgray;
+    width: 250px;
+}
+#sidebar a{
+    display: block;
+    width: 100%;
+    line-height: 10px;
+    text-decoration: none;
+    padding-left: 30px;
+
+}
+
+
+#sidebar a:hover{
+    background: gainsboro;
+}
+
+
+#sidebar i{
+    padding-right: 10px;
+}
+
+
+#content{
+    margin-left: 300px;
+    height: 1000px;
+    width: 1030px;
+}
+
+.scrap:hover{
+    color:rgb(45, 91, 243);
+}
+.dropdown-item{
+    font-size: 10px;
+}
+.dropdown{
+    width: 250px;
+}
+.img{
+    width: 100px;
+    height: 100%;
+}
